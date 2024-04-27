@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@900&display=swap");
+
+#slide-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: var(--container-padding, 2.5rem);
+}
+
+#slide-content {
+    background-color: unset !important;
+}
+
+.slidev-presenter .slidev-page {
+    background-color: black;
+    padding: 1rem;
+}

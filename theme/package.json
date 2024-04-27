@@ -1,0 +1,32 @@
+{
+    "name": "slidev-theme-game-changer",
+    "version": "0.1.0",
+    "description": "Game Changer-inspired theme for Slidev",
+    "author": "Mark Malstrom <mark@malstrom.me>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/markmals/slidev-theme-game-changer"
+    },
+    "keywords": [
+        "slidev-theme",
+        "slidev"
+    ],
+    "engines": {
+        "node": ">=14.0.0",
+        "slidev": ">=v0.47.0"
+    },
+    "dependencies": {
+        "@heroicons/vue": "^2.1.3",
+        "@slidev/types": "^0.47.0",
+        "@vueuse/core": "^10.9.0",
+        "dseg": "^0.46.0",
+        "vue": "^3.4.25"
+    },
+    "scripts": {
+        "dev": "slidev example.md --open",
+        "build": "slidev build example.md",
+        "export": "slidev export example.md",
+        "screenshot": "slidev export example.md --format png"
+    }
+}
