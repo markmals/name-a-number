@@ -10,6 +10,7 @@ function incrementScore(name: string) {
 
 <template>
     <div class="scores">
+        <!-- TODO: Add the ability to increment and decrement the score -->
         <button
             v-for="player of sortedScores"
             :key="player.name"

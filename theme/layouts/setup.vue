@@ -54,6 +54,7 @@ function deleteUser(name: string) {
             </span>
         </button>
 
+        <!-- TODO: Make this a grid (and restrict the total number of contestants to 12?) -->
         <ul
             v-if="showList"
             role="list"
