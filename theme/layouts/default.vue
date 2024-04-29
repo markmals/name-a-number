@@ -45,7 +45,7 @@ import ScoreBoard from "../components/ScoreBoard.vue"
     color: black;
     font-family: "Urbanist", Helvetica, Arial, sans-serif;
     font-weight: 900;
-    font-size: 6vmin;
+    font-size: 4.5vmin;
     text-align: center;
     line-height: normal;
     text-transform: uppercase;

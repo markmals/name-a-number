@@ -95,7 +95,7 @@ function deleteUser(name: string) {
                 <div class="flex flex-row justify-between w-full p-7">
                     <input
                         type="text"
-                        class="text-sm font-semibold leading-6 text-zinc-100 rounded-lg border border-zinc-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600 px-2"
+                        class="text-sm font-semibold leading-6 text-zinc-100 rounded-lg border bg-black border-zinc-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600 px-2"
                         :value="tempUser.name"
                         @input="setTempName($event)"
                     />

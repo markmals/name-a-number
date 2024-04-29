@@ -32,6 +32,6 @@ const showUnredacted = computed(() => context.$clicks.value === 1)
 }
 
 p.relaxed {
-    line-height: 3.5rem;
+    line-height: 4rem;
 }
 </style>

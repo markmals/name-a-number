@@ -47,7 +47,7 @@ image: game-changer-logo.jpg
 
 ---
 
-<HowMany redacted>scovilles hot sauce will you eat <br /> (in the 10,000’s)</HowMany>
+<HowMany redacted>scovilles hot sauce will you eat (in the 10,000’s)</HowMany>
 
 <!-- Wager points -->
 
